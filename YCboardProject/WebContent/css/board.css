@@ -1,0 +1,222 @@
+@charset "EUC-KR";
+
+body
+{
+	background-color:#ffffff;	
+}
+
+table
+{
+	background-color:#ffffff;
+}
+
+.menu
+{
+	background-color: #000000;
+	color:#ffffff;
+	padding: 15px;
+	text-align: center;
+	justify-content: center;
+ 	align-items: center;
+ 	border-radius: 10px;
+}
+
+.menu:hover
+{
+	background-color: #f4f4f4;
+	color:#000000;
+}
+
+.selectmenu
+{
+	background-color: #f4f4f4;
+	color:#000000;
+	text-align: center;
+	padding: 15px;
+	justify-content: center;
+ 	align-items: center;
+ 	border-radius: 10px;
+}
+.submenu
+{
+	font-size:30px;
+	font-family: 'Do Hyeon', sans-serif;
+}
+a:link
+{
+    text-decoration: none;
+}
+
+.join 
+{
+    color: black;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.leftmenu 
+{
+	font-size:18px;
+    color:#f4f4f4;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+.leftmenu:hover
+{
+	font-size:18px;
+    color:#000000;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+.selectleftmenu 
+{
+	font-size:18px;
+    color:#000000;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+.selectleftmenu:hover
+{
+	font-size:18px;
+    color:#f4f4f4;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+.leftmenu#tool 
+{
+	font-size:18px;
+    color: black;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+}
+#tooltable
+{
+	position: absolute;
+	left:430px;
+	top:512px;
+	color: black;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #cccccc;
+}	
+#view
+{
+	font-size:18px;
+	font-weight:bold;
+}
+.list_num   {text-align:center;background-color:#ffffff;width: 10%; height:30px;}
+.list_title {text-align:center;background-color:#ffffff;width: 50%;}
+.list_date  {text-align:center;background-color:#ffffff;width: 20%;}
+.list_author{text-align:center;background-color:#ffffff;width: 10%;}
+.list_hit   {text-align:center;background-color:#ffffff;width: 10%;}
+
+.list_num.view    {text-align:center;background-color:#ffffff;width: 10%;}
+.list_title.view  {text-align:center;background-color:#ffffff;width: 60%;}
+.list_date.view   {text-align:center;background-color:#ffffff;width: 10%;}
+.list_author.view {text-align:center;background-color:#ffffff;width: 10%;}
+.list_hit.view    {text-align:center;background-color:#ffffff;width: 10%;}
+
+.announcement
+{
+	text-align:center;
+	font-weight:bold;
+	color:#FF4E59;
+	padding-top:5px;
+}
+li.list
+{
+	overflow: hidden;
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 304px;
+    margin-left: 5px;
+    
+}
+a.today.img
+{
+	width:200px; 
+	height:200px;
+	border:0px;
+}
+
+div.today.view.title
+{
+	width:100%; 
+	height:30px;
+	font-size:26px;
+	font-weight:bold;
+	
+}
+div.dttach.box
+{
+	width:100%;
+	height:30px;	
+}
+div.writer.info
+{
+	width:100%; 
+	height:30px;
+	font-size:20px;
+}
+td.comment.nick
+{
+	font-weight:bold;
+}
+td.comment.date
+{
+	font-size:10px;
+}
+td.recomment.nick
+{
+	padding-left:20px;
+	font-weight:bold;
+}
+td.recomment.date
+{
+	padding-left:20px;
+	font-size:10px;
+}
+td.recomment
+{
+	padding-left:20px;
+}
+a.btn.write
+{
+	padding:5px;
+	border-radius:3px;
+	background-color:black;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+a.btn.rp
+{
+	padding:1px;
+	border-radius:3px;
+	background-color:black;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+input.login.btn
+{
+	padding:5px;
+	border-radius:3px;
+	background-color:black;
+	font-weight:bold;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+a.btn.ch
+{
+	padding:5px;
+	border-radius:3px;
+}

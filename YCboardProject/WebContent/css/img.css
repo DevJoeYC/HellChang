@@ -1,0 +1,76 @@
+@charset "EUC-KR";
+.imgg img{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+.imgg {
+  float: left;
+  margin: 18px;
+  margin-left:33px;
+  border: 1px solid #ccc;
+}
+
+.ino {
+	float: left;
+	text-align: center;
+	padding-left : 10px;
+}
+
+.ititle a{
+	float: left;
+	text-align: left;
+	width:150px;
+	padding-left : 10px;
+	font-weight:bold;
+	color:#000000;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+
+.title a{
+	float: left;
+	text-align: center;
+	width:580px;
+	font-weight:bold;
+	color:#000000;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+.idate {
+	float: left;
+	text-align: center;
+	padding-left : 10px;
+	color:#667EB5;
+}
+
+.icomt {
+	float: left;
+	text-align: center;
+	padding-left : 10px;
+}
+
+.itext
+{
+	float: left;
+	text-align: center;
+	padding-left : 10px;
+}
+.iname
+{
+	float: left;
+	text-align: left;
+	padding-left : 10px;
+	width:200px;
+	color:#667EB5;
+}
+.ihit
+{
+	float: left;
+	text-align: center;
+	padding-left : 10px;
+	color:#667EB5;
+}
